@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    basePath: "/vp-web",
+    output: "export",
+    reactStrictMode: true,
+  };
+  
+export default nextConfig
